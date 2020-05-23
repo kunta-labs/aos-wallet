@@ -1,0 +1,26 @@
+{
+  "name": "aos-desktop",
+  "version": "0.0.0",
+  "description": "experimental desktop application for AOS",
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "export BROWSER=none && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "export ELECTRON_START_URL=http://localhost:3000 && electron . --js-flags='--expose-gc'"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "electron": "^3.1.13",
+    "react-scripts": "0.8.5"
+  },
+  "homepage": "./build/"
+}

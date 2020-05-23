@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#proposal_result p{
+  color: black
+}
+
+#nav_sidebar {
+  position: fixed !important;
+  left: 0px;
+  height: 100vh;
+  display: block;
+  background-color: #333 !important;
+  border: 1px solid black !important;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#status {
+  height: 4% !important;
+  margin-bottom: 1%;
+  display: block;
+  margin-top: 1%;
+}
+
+hr {
+  background-color: #ccc !important;
+  height: 1px !important;
+}
+
+.card-right {
+
+}
+
+.main_nav {
+  background: #333;
+  color: #fff;
+  border-top: 1px solid #666 !important;
+  width: 100%;
+}
+
+.main_nav:hover {
+  color: #ccc;
+}
+
+.global_metrics {
+  border: 1px solid black;
+}
+
+.global_metric_columns {
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+textarea {
+   resize: none !important;
+}
